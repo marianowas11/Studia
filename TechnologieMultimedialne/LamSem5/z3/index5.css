@@ -1,0 +1,74 @@
+body {
+    background-color: #3a9afa80;
+}
+#layer1{
+    width: 100%;
+    height: 100%;
+}
+.animacja_svg{
+    width: 100%;
+    height: 100%;
+}
+.circle{
+    z-index:-1; 
+    transform: translate(0%, 0%); 
+}
+.formAdd {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-160%, -30%);
+padding: 10px;
+/* padding-top: 100px; */
+}
+.formDel {
+position: absolute;
+left: 50%;
+top: 49%;
+transform: translate(-65%, -65%);
+padding: 10px;
+/* padding-top: 100px; */
+}
+.formReset {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-65%, 20%);
+padding: 10px;
+/* padding-top: 100px; */
+}
+.card{
+width:20rem;
+}
+.btn-reset{
+width:100%;
+}
+/* @media (max-width:1519px) {
+    .formAdd {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-160%, -50%);
+        padding: 10px;
+        padding-top: 100px;
+        }
+        .formDel {
+        position: absolute;
+        left: 50%;
+        top: 49%;
+        transform: translate(-65%, -110%);
+        padding: 10px;
+        padding-top: 100px;
+        }
+        .formReset {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-65%, -43%);
+        padding: 10px;
+        padding-top: 100px;
+        }
+        .card{
+        width:10rem;
+        }
+} */
