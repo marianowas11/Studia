@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be00477e-fa73-4894-b2e3-e6cf05575ecc" name="Default Changelist" comment="v6.4" />
+    <list id="5500445c-52ae-4cb9-a339-49c5db3cf2ba" name="INNE" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>now</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Marcin" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Item.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SingleThreadItemFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Items/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Operations/SingleThreadConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Operations/SingleThreadProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Operations/MultiThreadsOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Operations/TimeOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Operations/SingleThreadsOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Operations/ThreadPoolOperations.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="685" />
+    <option name="y" value="145" />
+    <option name="width" value="1140" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectId" id="24CpbjoX5nFT7h2lgCANRvoRBWz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LAB 03 01.04.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB 03 01.04.2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB 03 01.04.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB 03 01.04.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB 03 01.04.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB 03 01.04.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB 03 01.04.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB 03 01.04.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB 03 01.04.2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB 03 01.04.2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Operations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="watki" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be00477e-fa73-4894-b2e3-e6cf05575ecc" name="Default Changelist" comment="" />
+      <changelist id="5500445c-52ae-4cb9-a339-49c5db3cf2ba" name="INNE" comment="" />
+      <created>1555060549731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555060549731</updated>
+      <workItem from="1555060552625" duration="544000" />
+      <workItem from="1555062843313" duration="8235000" />
+      <workItem from="1555076936661" duration="7074000" />
+      <workItem from="1555132538865" duration="2595000" />
+      <workItem from="1555138237316" duration="10283000" />
+      <workItem from="1555158944084" duration="6284000" />
+      <workItem from="1555172615972" duration="5929000" />
+      <workItem from="1555221678739" duration="41000" />
+      <workItem from="1555258199266" duration="283000" />
+      <workItem from="1555272853669" duration="40000" />
+      <workItem from="1555326876126" duration="6000" />
+      <workItem from="1555327009238" duration="412000" />
+      <workItem from="1555581561692" duration="207000" />
+      <workItem from="1555582387419" duration="63000" />
+      <workItem from="1556283720783" duration="1988000" />
+      <workItem from="1556353639263" duration="591000" />
+      <workItem from="1556359536020" duration="6068000" />
+      <workItem from="1556379733186" duration="837000" />
+      <workItem from="1556446557188" duration="192000" />
+      <workItem from="1556458723565" duration="888000" />
+      <workItem from="1556535488210" duration="112000" />
+      <workItem from="1556640415548" duration="5152000" />
+      <workItem from="1556705537228" duration="4486000" />
+      <workItem from="1556717202845" duration="1384000" />
+      <workItem from="1557138777815" duration="714000" />
+      <workItem from="1643144499531" duration="72000" />
+      <workItem from="1643144674036" duration="142000" />
+      <workItem from="1643144838439" duration="13000" />
+      <workItem from="1643144910214" duration="56000" />
+    </task>
+    <task id="LOCAL-00001" summary="v0.0.1">
+      <created>1555060708361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555060708361</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v0.0.1">
+      <created>1555060949291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555060949291</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v0.0.2">
+      <created>1555064853257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555064853257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v0.0.2">
+      <created>1555072367890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555072367890</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v0.2">
+      <created>1555134360298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555134360298</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v0.3">
+      <created>1555135161588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555135161588</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v0.2.1">
+      <created>1555141209364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555141209364</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v0.2.1">
+      <created>1555146262340</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555146262340</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v0.2.5">
+      <created>1555153029178</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555153029178</updated>
+    </task>
+    <task id="LOCAL-00010" summary="v0.3">
+      <created>1555159783312</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555159783312</updated>
+    </task>
+    <task id="LOCAL-00011" summary="v0.3.1">
+      <created>1555160398674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555160398674</updated>
+    </task>
+    <task id="LOCAL-00012" summary="v0.3.2">
+      <created>1555160425580</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555160425580</updated>
+    </task>
+    <task id="LOCAL-00013" summary="v0.3.5">
+      <created>1555173933017</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555173933017</updated>
+    </task>
+    <task id="LOCAL-00014" summary="v0.3.5.1">
+      <created>1555173973212</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555173973212</updated>
+    </task>
+    <task id="LOCAL-00015" summary="v0.4">
+      <created>1555178079783</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1555178079783</updated>
+    </task>
+    <task id="LOCAL-00016" summary="v0.5.1">
+      <created>1556642886569</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1556642886570</updated>
+    </task>
+    <task id="LOCAL-00017" summary="v6.0">
+      <created>1556643691837</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556643691837</updated>
+    </task>
+    <task id="LOCAL-00018" summary="v6.1">
+      <created>1556706492762</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556706492775</updated>
+    </task>
+    <task id="LOCAL-00019" summary="v6.2">
+      <created>1556708229030</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1556708229030</updated>
+    </task>
+    <task id="LOCAL-00020" summary="v6.3">
+      <created>1556717988321</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1556717988322</updated>
+    </task>
+    <task id="LOCAL-00021" summary="v6.4">
+      <created>1556718358230</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1556718358230</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="64408000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23959732" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v0.0.1" />
+    <MESSAGE value="v0.0.2" />
+    <MESSAGE value="v0.2" />
+    <MESSAGE value="v0.2.1" />
+    <MESSAGE value="v0.2.5" />
+    <MESSAGE value="v0.3" />
+    <MESSAGE value="v0.3.1" />
+    <MESSAGE value="v0.3.2" />
+    <MESSAGE value="v0.3.5" />
+    <MESSAGE value="v0.3.5.1" />
+    <MESSAGE value="v0.4" />
+    <MESSAGE value="v0.5.1" />
+    <MESSAGE value="v6.0" />
+    <MESSAGE value="v6.1" />
+    <MESSAGE value="v6.2" />
+    <MESSAGE value="v6.3" />
+    <MESSAGE value="v6.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="v6.4" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Programy/JDK 1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LAB 01 04.03.2019/target/classes/controller/EmployeeController$1.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/SingleThreadItemFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operations/SingleThreadConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operations/SingleThreadProducer.java" />
+    <entry file="jar://D:/Programy/JDK 1.8/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operations/SingleThreadsOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operations/TimeOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operations/MultiThreadsOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operations/ThreadPoolOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
