@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Film2" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="df013db5-f76e-44d3-b0df-bcbc46d93160">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="ZmlsbXkgLDE1LDE1LGNiNzUwNWZlLWMzNjctNGJhYy05YTdkLTgzZTc0MzY2MTFkODs="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<style name="Title" fontName="Times New Roman" fontSize="50" isBold="true"/>
+	<style name="SubTitle" forecolor="#736343" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="Row" mode="Transparent">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style backcolor="#E6DAC3"/>
+		</conditionalStyle>
+	</style>
+	<queryString language="SQL">
+		<![CDATA[SELECT *
+FROM filmy]]>
+	</queryString>
+	<field name="id_filmu" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_filmu"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_filmu"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="filmy"/>
+	</field>
+	<field name="nazwa_filmu" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nazwa_filmu"/>
+		<property name="com.jaspersoft.studio.field.label" value="nazwa_filmu"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="filmy"/>
+	</field>
+	<field name="rezyser" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="rezyser"/>
+		<property name="com.jaspersoft.studio.field.label" value="rezyser"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="filmy"/>
+	</field>
+	<field name="scenariusz" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="scenariusz"/>
+		<property name="com.jaspersoft.studio.field.label" value="scenariusz"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="filmy"/>
+	</field>
+	<field name="gatunek" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="gatunek"/>
+		<property name="com.jaspersoft.studio.field.label" value="gatunek"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="filmy"/>
+	</field>
+	<field name="produkcja" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="produkcja"/>
+		<property name="com.jaspersoft.studio.field.label" value="produkcja"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="filmy"/>
+	</field>
+	<field name="glos" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="glos"/>
+		<property name="com.jaspersoft.studio.field.label" value="glos"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="filmy"/>
+	</field>
+	<field name="napisy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="napisy"/>
+		<property name="com.jaspersoft.studio.field.label" value="napisy"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="filmy"/>
+	</field>
+	<sortField name="napisy" order="Descending"/>
+	<group name="Group1">
+		<groupExpression><![CDATA[$F{napisy}]]></groupExpression>
+		<groupHeader>
+			<band height="37">
+				<frame>
+					<reportElement mode="Opaque" x="-21" y="7" width="843" height="24" forecolor="#B89F7D" backcolor="#F2EBDF" uuid="ff649bda-bbd1-4c2d-bd67-21f69ad64bbf"/>
+					<rectangle>
+						<reportElement mode="Opaque" x="21" y="0" width="36" height="24" backcolor="#736343" uuid="a7ae31ce-9474-4e4b-9627-eb9152ff7b80"/>
+						<graphicElement>
+							<pen lineWidth="0.0"/>
+						</graphicElement>
+					</rectangle>
+					<textField>
+						<reportElement style="SubTitle" x="68" y="0" width="755" height="24" forecolor="#736343" uuid="b5a25815-f4ed-4382-9712-d113dc519d4e"/>
+						<textElement>
+							<font isBold="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{napisy}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="6"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="136" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="164" height="126" uuid="1c003177-754c-448f-8ce1-16868856f545"/>
+				<imageExpression><![CDATA["coffee.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement style="Title" x="270" y="20" width="263" height="62" uuid="bc1ce1da-8232-46ea-be55-cec4abb986dd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Film]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="303" y="82" width="196" height="22" uuid="f6a78448-8260-4445-a9e0-e3fb53b080d9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Group by napisy]]></text>
+			</staticText>
+			<image>
+				<reportElement x="633" y="-73" width="219" height="209" uuid="4aa6f4d1-27dc-4b34-9227-59e19ce2c959"/>
+				<imageExpression><![CDATA["coffee_stain.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="16" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="15" width="802" height="1" uuid="e9d2002a-c8ee-4649-a258-640dad29110c"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement style="Column header" x="0" y="0" width="114" height="15" forecolor="#736343" uuid="8a847c10-bb58-4025-bb3b-13a5118a4b5d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0dd1f4b3-d27c-40c7-825f-b6e416bdc243"/>
+				</reportElement>
+				<text><![CDATA[id_filmu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="114" y="0" width="114" height="15" forecolor="#736343" uuid="0833756b-938f-48ee-96c2-e846a11a39ed">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4e0f77d3-d450-44b4-9bf3-c0e4a51c0065"/>
+				</reportElement>
+				<text><![CDATA[nazwa_filmu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="228" y="0" width="114" height="15" forecolor="#736343" uuid="678a8e81-db79-42b9-9671-a26d58742706">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a7087d91-2777-4061-8ebe-6d5137fb366a"/>
+				</reportElement>
+				<text><![CDATA[rezyser]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="342" y="0" width="114" height="15" forecolor="#736343" uuid="4b503497-904c-4d2d-875f-13c67855a58c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d3723e5b-17e3-4882-b268-36187349fa8f"/>
+				</reportElement>
+				<text><![CDATA[scenariusz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="456" y="0" width="114" height="15" forecolor="#736343" uuid="1ba2262d-6f46-4ed7-85ab-9fd466b52ba3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8c2f856d-5b9d-418d-8efa-24f1cbd063f0"/>
+				</reportElement>
+				<text><![CDATA[gatunek]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="570" y="0" width="114" height="15" forecolor="#736343" uuid="3bd6d3b9-cf50-49af-981b-0c021f01ce54">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fae0ee86-ed65-4290-83b8-c39ff9b9c421"/>
+				</reportElement>
+				<text><![CDATA[produkcja]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="684" y="0" width="114" height="15" forecolor="#736343" uuid="080f3145-7e7f-4323-8dad-b170588988e5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6ba0a68a-30f2-46c1-a9b5-7cc80f516c2e"/>
+				</reportElement>
+				<text><![CDATA[glos]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="802" height="15" uuid="fa7cec56-4ec1-48e6-a26e-7266a995d174"/>
+				<textField textAdjust="StretchHeight">
+					<reportElement style="Detail" x="0" y="0" width="114" height="15" uuid="bc1e7923-4fe8-419b-8a8b-a78d05b93648">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0dd1f4b3-d27c-40c7-825f-b6e416bdc243"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{id_filmu}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement style="Detail" x="114" y="0" width="114" height="15" uuid="587f81d1-ccd1-4cb7-951e-d2f718eb265b">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4e0f77d3-d450-44b4-9bf3-c0e4a51c0065"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{nazwa_filmu}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement style="Detail" x="228" y="0" width="114" height="15" uuid="4dd4ff84-a399-4261-b56d-fbb2048774fc">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a7087d91-2777-4061-8ebe-6d5137fb366a"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{rezyser}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement style="Detail" x="342" y="0" width="114" height="15" uuid="5e12395f-9a51-434d-bd72-7633dea6f303">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d3723e5b-17e3-4882-b268-36187349fa8f"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{scenariusz}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement style="Detail" x="456" y="0" width="114" height="15" uuid="78f94179-033b-4718-bd6a-5e43a0a004da">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8c2f856d-5b9d-418d-8efa-24f1cbd063f0"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{gatunek}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement style="Detail" x="570" y="0" width="114" height="15" uuid="eee6457d-49a7-46c0-a8af-6859cfbb1cc3">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fae0ee86-ed65-4290-83b8-c39ff9b9c421"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{produkcja}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement style="Detail" x="684" y="0" width="114" height="15" uuid="2d9b05e6-0b94-42b6-9f6c-f8e87f8570dd">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6ba0a68a-30f2-46c1-a9b5-7cc80f516c2e"/>
+					</reportElement>
+					<textFieldExpression><![CDATA[$F{glos}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="6" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="802" height="1" uuid="fa5e88d5-a011-4e32-8f12-ce923f903111"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-21" y="1" width="843" height="24" forecolor="#D0B48E" backcolor="#F2EBDF" uuid="5d8169bd-4a75-48c8-8a68-6d3ad5ba9402"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="783" y="1" width="40" height="20" forecolor="#736343" uuid="e5e27efa-b599-499b-9ca3-848cb511cb7b"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="703" y="1" width="80" height="20" forecolor="#736343" uuid="18cfe1ca-f7d6-48b0-9827-28578b42a5e0"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

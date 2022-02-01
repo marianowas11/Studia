@@ -8,18 +8,22 @@ import lombok.ToString;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.math.BigDecimal;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
 @Data
 @Entity
-@Table(name = "klienci")
-public class Employee {
+@Table(name = "filmy")
+public class Film {
     @Id
-    private int id_klienta;
-    private String imie;
-    private String nazwisko;
-    private int nr_telefonu;
-    private int ilosc_seansow;
+    private int id_filmu;
+    private String nazwa_filmu;
+    private String rezyser;
+    private String scenariusz;
+    private String gatunek;
+    private String produkcja;
+    private String glos;
+    private String napisy;
 }
